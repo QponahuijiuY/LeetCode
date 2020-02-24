@@ -4,7 +4,7 @@ package com.mutong.algs.sort;
  * @description:
  * @Author: Mutong
  * @Date: 2020/2/24 22:20
- * @time_complexity: O()
+ * @time_complexity: O(n^2)
  */
 public class SelectionSort {
     public void sort(int[] nums) {
