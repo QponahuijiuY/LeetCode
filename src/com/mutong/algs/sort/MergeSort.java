@@ -3,32 +3,50 @@ package com.mutong.algs.sort;
 import java.util.Arrays;
 
 /**
- * @description:
+ * @description: 归并排序
  * @Author: Mutong
- * @Date: 2020/2/24 22:20
- * @time_complexity: O(n^2)
+ * @Date: 2020/2/25 0:03
+ * @time_complexity: O(nlgn)
  */
-public class SelectionSort {
+public class MergeSort {
     public static void sort(int[] nums) {
-        int n = nums.length;
-        if (nums == null || n < 2) return;
-        for (int i = 0; i < n - 1; i++) {
-            //假设i=0时是最小值,看i+1对应的值是否小于0对应的值,是交换,否i++
-            int minIndex = i;
-            for (int j = i + 1; j < n - 1; j++) {
-                if (nums[minIndex] > nums[j]) {
-                    minIndex = j;
-                }
-                swap(nums, i, minIndex);
-            }
+        if (nums == null || nums.length < 2){
+            return;
+        }
+        sortProcess(nums, 0 , nums.length - 1);
+    }
+
+    private static void sortProcess(int[] nums, int L, int R) {
+        if(L == R){
+            return;
+        }
+        int mid = (L + R) / 2;
+        sortProcess(nums, 0 , mid);//O(N/2)
+        sortProcess(nums, mid + 1, R);//O(N/2)
+        merge(nums, L , mid , R);//O(N)
+        //T(N) = 2T(N/2) + T(N)
+    }
+
+    private static void merge(int[] nums, int L, int mid, int R) {
+        int[] help = new int[R - L + 1];
+        int i = 0;
+        int p1 = L;
+        int p2 = mid + 1;
+        while (p1 <= mid && p2 <= R){
+            help[i++] = nums[p1] < nums[p2] ? nums[p1++] : nums[p2++];
+        }
+        while (p1 <= mid){
+            help[i++] = nums[p1++];
+        }
+        while (p2 <= R){
+            help[i++] = nums[p2++];
+        }
+        for (i = 0 ; i < help.length; i ++){
+            nums[L+i] = help[i];
         }
     }
 
-    private static void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
+
     public static void main(String[] args) {
         int testTime=500000;
         int size = 10;
@@ -103,9 +121,4 @@ public class SelectionSort {
         }
         System.out.println();
     }
-
-
 }
-
-
-
