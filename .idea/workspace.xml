@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71eb11c6-a5d5-4935-8933-69d7939d9849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/algs/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/algs/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/algs/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/algs/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/algs/sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/algs/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/algs/sort/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mutong/algs/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/algs/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mutong/algs/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/algs/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mutong/algs/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/algs/sort/SelectionSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="71eb11c6-a5d5-4935-8933-69d7939d9849" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +19,7 @@
     <session id="1736605847">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -53,12 +44,12 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="ft" value="27" />
-          <entry key="java" value="2446" />
+          <entry key="java" value="2453" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2446" />
+          <entry key="JAVA" value="2453" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="VTL" value="27" />
         </counts>
@@ -118,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="-2353">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#2593#2594#0" expanded="true" />
                 <element signature="e#2625#2626#0" expanded="true" />
@@ -185,9 +176,9 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="964" />
-    <option name="y" value="19" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="606" />
+    <option name="y" value="102" />
     <option name="width" value="908" />
     <option name="height" value="1068" />
   </component>
@@ -249,8 +240,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582561240045" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582599403355" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mutongblog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -304,16 +295,15 @@
       <workItem from="1582213460463" duration="426000" />
       <workItem from="1582215657611" duration="47000" />
       <workItem from="1582292435324" duration="899000" />
-      <workItem from="1582552415140" duration="7286000" />
+      <workItem from="1582552415140" duration="8598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9631000" />
+    <option name="totallyTimeSpent" value="10943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="964" y="19" width="908" height="1068" extended-state="0" />
-    <editor active="true" />
+    <frame x="964" y="19" width="908" height="1068" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.32900944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -456,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="-2353">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="e#2593#2594#0" expanded="true" />
             <element signature="e#2625#2626#0" expanded="true" />
