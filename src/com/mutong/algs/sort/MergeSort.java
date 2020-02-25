@@ -20,7 +20,7 @@ public class MergeSort {
         if(L == R){
             return;
         }
-        int mid = L + (R - L) << 1;
+        int mid = L + (R - L) >> 1;
         sortProcess(nums, 0 , mid);//O(N/2)
         sortProcess(nums, mid + 1, R);//O(N/2)
         merge(nums, L , mid , R);//O(N)
