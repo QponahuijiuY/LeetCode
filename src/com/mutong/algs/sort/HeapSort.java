@@ -39,6 +39,7 @@ public class HeapSort {
         arr[j] = temp;
     }
 
+    //节点突然变化,继续调整成最大堆的过程
     private static void heapify(int[] arr, int index, int heapSize){
         int left = index * 2 + 1;
         while(left < heapSize){
