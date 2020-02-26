@@ -20,24 +20,28 @@ public class MergeSort {
         if(L == R){
             return;
         }
-        int mid = L + (R - L) >> 1;
+        int mid = L + (R - L) >> 1;//即(L+R)/2
         sortProcess(nums, 0 , mid);//O(N/2)
         sortProcess(nums, mid + 1, R);//O(N/2)
         merge(nums, L , mid , R);//O(N)
         //T(N) = 2T(N/2) + T(N)
     }
 
+    //合并
     private static void merge(int[] nums, int L, int mid, int R) {
         int[] help = new int[R - L + 1];
         int i = 0;
         int p1 = L;
         int p2 = mid + 1;
+        //如果左边值小于右边值,吧左边的值放进help数组里面,左边指针++,help指针++
         while (p1 <= mid && p2 <= R){
             help[i++] = nums[p1] < nums[p2] ? nums[p1++] : nums[p2++];
         }
+        //左边的都是最小的
         while (p1 <= mid){
             help[i++] = nums[p1++];
         }
+        //右边的都是最小的.
         while (p2 <= R){
             help[i++] = nums[p2++];
         }

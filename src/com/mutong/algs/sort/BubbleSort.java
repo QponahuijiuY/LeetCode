@@ -13,7 +13,7 @@ public class BubbleSort {
     public static void sort(int[] nums){
         int n = nums.length;
         if (nums == null || n < 2) return;
-        //每进行依次冒泡排序,最后一位上的数字永远是最大的
+        //每进行依次冒泡排序,最后一位上的数字永远是最大的,即最后一位上的数字是有序的,只需要排序前n-1个即可
         for (int end = n - 1 ; end > 0 ; end --){
             for (int i = 0 ; i < end ; i ++){
                 if (nums[i + 1] < nums[i]){

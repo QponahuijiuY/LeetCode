@@ -14,6 +14,7 @@ public class InsertSort {
         int n = nums.length;
         if (nums == null || n < 2) return;
         for (int i = 1 ; i < n ; i ++){
+            //每一个数字都要和前面的所有数字进行比较.
             for (int j = i - 1 ; j >= 0 && nums[j] > nums[j + 1] ; j ++){
                 swap(nums, j , j + 1);
             }
