@@ -3,7 +3,7 @@ package com.mutong.algs.sort;
 import java.util.Arrays;
 
 /**
- * @description:
+ * @description: 选择排序
  * @Author: Mutong
  * @Date: 2020/2/24 22:20
  * @time_complexity: O(n^2)
