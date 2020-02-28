@@ -1,5 +1,7 @@
 package com.mutong.bishi;
 
+import java.util.Scanner;
+
 /**
  * @description:
  * @Author: Mutong
@@ -7,4 +9,12 @@ package com.mutong.bishi;
  * @time_complexity: O()
  */
 public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int i = sc.nextInt();
+        if (i < n){
+
+        }
+    }
 }
