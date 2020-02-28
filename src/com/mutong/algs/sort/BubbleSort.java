@@ -15,6 +15,7 @@ public class BubbleSort {
         if (nums == null || n < 2) return;
         //每进行依次冒泡排序,最后一位上的数字永远是最大的,即最后一位上的数字是有序的,只需要排序前n-1个即可
         for (int end = n - 1 ; end > 0 ; end --){
+            //两两交换到最后一位他肯定是最大的,现在只需要排序除最后一个数字即可
             for (int i = 0 ; i < end ; i ++){
                 if (nums[i + 1] < nums[i]){
                     swap(nums, i, i + 1);
