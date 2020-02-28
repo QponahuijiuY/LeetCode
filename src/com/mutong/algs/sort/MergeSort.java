@@ -29,15 +29,19 @@ public class MergeSort {
 
     //合并
     private static void merge(int[] nums, int L, int mid, int R) {
+        //创建一个新的数组
         int[] help = new int[R - L + 1];
         int i = 0;
+        //p1指向左边第一个元素
         int p1 = L;
+        //p2指向右边第一个元素
         int p2 = mid + 1;
         //如果左边值小于右边值,吧左边的值放进help数组里面,左边指针++,help指针++
+        //防止越界
         while (p1 <= mid && p2 <= R){
             help[i++] = nums[p1] < nums[p2] ? nums[p1++] : nums[p2++];
         }
-        //左边的都是最小的
+        //左边的都是最小的,判断特殊情况
         while (p1 <= mid){
             help[i++] = nums[p1++];
         }
