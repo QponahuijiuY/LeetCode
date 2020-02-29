@@ -7,4 +7,7 @@ package com.mutong.hot_interview;
  * @time_complexity: O()
  */
 public class ListNode {
+     int val;
+     ListNode next;
+     ListNode(int x) { val = x; }
 }

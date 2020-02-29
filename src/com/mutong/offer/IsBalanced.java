@@ -1,7 +1,7 @@
 package com.mutong.offer;
 
 /**
- * @description:
+ * @description: 判断一棵树是否是平衡树
  * @Author: Mutong
  * @Date: 2020-02-25 22:57
  * @time_complexity: O()
