@@ -23,6 +23,9 @@ public class TwoQueueStack {
         data.add(n);
     }
     public int pop(){
+        if (data.isEmpty()) {
+            throw new RuntimeException("Stack is empty!");
+        }
         //只要data数据不为空,就把data队列除最后一个入队的数字移动到help队列里面
         while (data.size() > 1){
             help.add(data.poll());
@@ -33,6 +36,9 @@ public class TwoQueueStack {
     }
 
     public int peek(){
+        if (data.isEmpty()) {
+            throw new RuntimeException("Stack is empty!");
+        }
         while (data.size() > 1){
             help.add(data.poll());
         }
@@ -40,6 +46,9 @@ public class TwoQueueStack {
         data.add(res);
         swap();
         return res;
+    }
+    public boolean empty(){
+        return data.isEmpty();
     }
     //改变两个=引用
     private void swap() {

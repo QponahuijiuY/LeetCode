@@ -1,5 +1,7 @@
 package com.mutong.hot_interview;
 
+import java.util.Stack;
+
 /**
  * @description:
  * @Author: Mutong
@@ -14,5 +16,21 @@ public class PreOrderTree {
         System.out.print(head.val + " ");
         preOrderTree(head.left);
         preOrderTree(head.right);
+    }
+    public void preOrderTree2(TreeNode head){
+        if(head != null){
+            Stack<TreeNode> stack = new Stack<>();
+            stack.add(head);
+            while (!stack.isEmpty()){
+                head = stack.pop();
+                System.out.println(head.val + " ");
+                if (head.right != null){
+                    stack.push(head.right);
+                }
+                if (head.left != null){
+                    stack.push(head.left);
+                }
+            }
+        }
     }
 }
