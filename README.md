@@ -5,6 +5,8 @@
 * *个人博客网站 : http://Qponahuijiuy.top*
 * *邮箱 : mutong0410@163.com*
 ### 👨‍💻 LeetCode题解
+##### [题解 | 队列实现栈](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483707&idx=1&sn=d138aaed4ddca395267bc0e61234cf20&chksm=9f097c2da87ef53b5f99373cf0897365ed4021289d0d732f2aa1237064b66019cdb62de21d47&token=1596988233&lang=zh_CN#rd)
+##### [题解 | 栈实现队列](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483707&idx=2&sn=5a3ed7763e87af09d418b4f7ef51f581&chksm=9f097c2da87ef53b7f7d6d958bc34ee42ce47e1999a0475af0ed4ffe19a61fdff8cf9df04d82&token=1596988233&lang=zh_CN#rd)
 ##### [题解 | 买卖股票的最大时机](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483704&idx=1&sn=cd6a3488d6180f9b2e93b961f48beb4e&chksm=9f097c2ea87ef538f65827adbbf6b92ac883e910b9c5143433c17b99bedc29d6127957bacd2f&token=38550787&lang=zh_CN#rd)
 ##### [题解 | 买卖股票的最佳时机 II](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483704&idx=2&sn=edb7d2acc09cad3bc07e7970e389d04a&chksm=9f097c2ea87ef53896881268b8d7a1ae85afd063ad02f768709bfaead705266e219d321ee6ac&token=38550787&lang=zh_CN#rd)
 ##### [题解 | 删除排序数组中的重复项](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483697&idx=1&sn=50c8e1db08f9f3669eb3f64afacb8d66&chksm=9f097c27a87ef531086f8d48e6f1cc6403cb82871a0373c8bbdef8aec1a910dd71410ac3a356&token=38550787&lang=zh_CN#rd)
@@ -19,7 +21,7 @@
 ##### [题解 | 链表中的入环节点](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483670&idx=2&sn=54c117318f6dc11a2b712a67a89ac269&chksm=9f097c00a87ef51651c5f6475ba7d8ca77b91ab23ccbba9e701883ccd6b231fc239acb194275&token=38550787&lang=zh_CN#rd)
 ##### [题解 | 删除链表中的节点](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483665&idx=1&sn=a5b5297b5d70bc196e1e176bfe487726&chksm=9f097c07a87ef51181ad057052636e5e10d74327dcb62c75cec2d5137b63839eebbb5c53a05b&token=38550787&lang=zh_CN#rd)
 ##### [题解 | 链表中倒数第k个节点](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483665&idx=2&sn=0f0e58839e5e7cf682be0b13200b81e4&chksm=9f097c07a87ef51110a89303bd8e27f69f35caa5706a8342a6df05c929c2a4fb300396ef5f5b&token=38550787&lang=zh_CN#rd)
-##### [题解 | 反转链表](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483665&idx=3&sn=6410118e5bdc8581df9ed553ca1ff550&chksm=9f097c07a87ef511d26229245a2692e5bb4027316d3f7c41cc7c78c9e44e4e4845ccbdf87c37&token=38550787&lang=zh_CN#rd)
+##### [题解 | 反转链表](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483710&idx=2&sn=0c28357354e1a1015084098ebadf4669&chksm=9f097c28a87ef53e6bed001290656cbedc67a092020f86f72f75240c049d3f5edd899573b3b0&token=1596988233&lang=zh_CN#rd)
 ##### [题解 | 删除链表中的重复节点Ⅰ](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483665&idx=5&sn=c7f4ed64c5288ac8e5316fa2f04d8591&chksm=9f097c07a87ef51117c7cb2f66febfbb2a615fd0df56e64abf2e10fd3f67d8ef7f69c7c69716&token=38550787&lang=zh_CN#rd)
 ##### [题解 | 删除链表中的重复节点Ⅱ](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483665&idx=6&sn=2252c8f01a9224a64267b8ee16f26caa&chksm=9f097c07a87ef5117f4cfd763bbf86337ed137774bbb29eb0f54976c2ccb57328ff824247654&token=38550787&lang=zh_CN#rd)
 ##### [题解 | 合并两个有序链表](https://mp.weixin.qq.com/s?__biz=MzA3Mzg4Njg0MQ==&mid=2247483665&idx=4&sn=145855254c044564485037f5060684ef&chksm=9f097c07a87ef5111dec8a79e119008e579e327e6aed07a08515144d2743a661e7950210ed2f&token=38550787&lang=zh_CN#rd)
