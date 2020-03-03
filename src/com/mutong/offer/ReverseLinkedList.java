@@ -7,6 +7,7 @@ package com.mutong.offer;
  * @time_complexity: O()
  */
 public class ReverseLinkedList {
+
     //递归
     public ListNode reverseLinkedList(ListNode head){
         if (head == null && head.next == null) return head;

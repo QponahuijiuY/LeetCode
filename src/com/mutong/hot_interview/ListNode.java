@@ -6,7 +6,7 @@ package com.mutong.hot_interview;
  * @Date: 2020-02-28 11:57
  * @time_complexity: O()
  */
-public class ListNode {
+class ListNode {
      int val;
      ListNode next;
      ListNode(int x) { val = x; }
