@@ -1,6 +1,9 @@
 package com.mutong.offer;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * @description:
@@ -10,7 +13,7 @@ import java.util.ArrayList;
  */
 public class LevelOrder {
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
-        if(root == null) return new ArrayList(0);
+        if(root == null) {return new ArrayList(0);}
         ArrayList<TreeNode> list = new ArrayList();
         int i = 0;
         list.add(root);
@@ -29,6 +32,31 @@ public class LevelOrder {
             res.add(list.get(j).val);
         }
         return res;
+    }
 
+    public List<List<Integer>> levelOrder(TreeNode root) {
+
+        List<List<Integer>> res = new ArrayList<>();
+        if (root == null){
+            return res;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            int size=  queue.size();
+            List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < size ; i ++){
+                TreeNode mid = queue.poll();
+                list.add(mid.val);
+                if (mid.left != null){
+                    queue.add(mid.left);
+                }
+                if (mid.right != null){
+                    queue.add(mid.right);
+                }
+            }
+            res.add(list);
+        }
+        return res;
     }
 }
