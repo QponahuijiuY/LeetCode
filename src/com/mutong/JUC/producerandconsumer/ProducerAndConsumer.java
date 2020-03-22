@@ -1,4 +1,4 @@
-package com.mutong.JUC;
+package com.mutong.JUC.producerandconsumer;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -136,6 +136,7 @@ class Data2{
             //如果n等于0则等待,否则n--
             while (number == 0){
                 //等待
+
                 condition.await();
             }
             number--;
