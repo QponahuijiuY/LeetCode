@@ -30,4 +30,18 @@ public class SwapPairs {
         }
         return pre.next;
     }
+    public ListNode swapPairs1(ListNode head) {
+        ListNode pre = new ListNode(0);
+        pre.next = head;
+        ListNode cur = pre;
+        while (cur.next != null && cur.next.next != null){
+            ListNode start = cur.next;
+            ListNode end = start.next;
+            pre.next = end;
+            start.next = end.next;
+            end.next = start;
+            pre = start;
+        }
+        return pre.next;
+    }
 }
