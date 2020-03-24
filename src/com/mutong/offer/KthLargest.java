@@ -1,6 +1,7 @@
 package com.mutong.offer;
 
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Stack;
 
 /**
@@ -10,6 +11,8 @@ import java.util.Stack;
  * @time_complexity: O()
  */
 public class KthLargest {
+
+//    力扣_二叉搜索树的第k小元素
     public int kthLargest(TreeNode root, int k) {
         Stack<TreeNode> stack = new Stack<>();
         LinkedList<TreeNode> linkedList = new LinkedList<>();
@@ -30,5 +33,33 @@ public class KthLargest {
 
         }
         return linkedList.get(k-1).val;
+    }
+
+
+//    数据流中的第k小元素
+    /**
+     * 使用小顶堆 ,第k小,我们可以维护一个k个元素的小顶堆
+     */
+
+
+    private PriorityQueue<Integer> queue;
+    private int limit ;
+    public KthLargest(int k, int[] nums) {
+        this.limit = k;
+        //把最大的k个永远保存在min heap里面
+        queue = new PriorityQueue<>(k);
+        for (int i = 0; i < nums.length; i++) {
+            add(nums[i]);
+        }
+    }
+
+    public int add(int val) {
+        if (queue.size() < limit){
+            queue.add(val);
+        }else if (queue.peek() < val){
+            queue.poll();
+            queue.add(val);
+        }
+        return queue.peek();
     }
 }
