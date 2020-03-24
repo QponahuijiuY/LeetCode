@@ -7,20 +7,19 @@ import java.util.Queue;
  * @description: 用队列实现栈
  * @Author: Mutong
  * @Date: 2020-03-01 14:17
- * @time_complexity: O()
+ * @time_complexity: O(n)
  */
 public class MyStack {
-
-    Queue<Integer> queue ;
+    Queue<Integer> queue;
     /** Initialize your data structure here. */
     public MyStack() {
-        queue = new LinkedList();
+        queue = new LinkedList<>();
     }
 
     /** Push element x onto stack. */
     public void push(int x) {
         queue.add(x);
-        for(int i = 0 ; i < queue.size() - 1 ; i ++){
+        for (int i = 0; i < queue.size() - 1 ; i++) {
             queue.add(queue.poll());
         }
     }
