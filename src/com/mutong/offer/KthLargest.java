@@ -46,19 +46,20 @@ public class KthLargest {
     private int limit ;
     public KthLargest(int k, int[] nums) {
         this.limit = k;
-        //把最大的k个永远保存在min heap里面
         queue = new PriorityQueue<>(k);
+        //添加到队列中去
         for (int i = 0; i < nums.length; i++) {
             add(nums[i]);
         }
     }
 
     public int add(int val) {
+        //如果当前给的数组元素个数小于k,说明,现在还没有第k大元素,所以要把所有的数字都加到小跟堆里面
         if (queue.size() < limit){
-            queue.add(val);
+            queue.offer(val);
         }else if (queue.peek() < val){
             queue.poll();
-            queue.add(val);
+            queue.offer(val);
         }
         return queue.peek();
     }
