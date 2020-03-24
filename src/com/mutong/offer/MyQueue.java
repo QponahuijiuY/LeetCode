@@ -9,40 +9,82 @@ import java.util.Stack;
  * @time_complexity: O()
  */
 public class MyQueue {
-    Stack<Integer> stack;
-    Stack<Integer> help;
-
+    private Stack<Integer> input ;
+    private Stack<Integer> output ;
     /** Initialize your data structure here. */
     public MyQueue() {
-         stack= new Stack<>();
-         help = new Stack<>();
+        input = new Stack<>();
+        output = new Stack<>();
     }
 
     /** Push element x to the back of queue. */
     public void push(int x) {
-        while (!stack.isEmpty()){
-            help.push(stack.pop());
-        }
-        stack.push(x);
-        while (!help.isEmpty()){
-            stack.push(help.pop());
-        }
+            input.push(x);
+
     }
 
     /** Removes the element from in front of queue and returns that element. */
     public int pop() {
-        return stack.pop();
+        if (output.isEmpty()){
+            while (!input.isEmpty()){
+                output.push(input.pop());
+            }
+        }
+        return output.pop();
     }
 
     /** Get the front element. */
     public int peek() {
-        return stack.peek();
+        if (output.isEmpty()){
+            while (!input.isEmpty()){
+                output.push(input.pop());
+            }
+        }
+        return output.peek();
     }
 
     /** Returns whether the queue is empty. */
     public boolean empty() {
-        return stack.empty();
+        return input.isEmpty() && output.isEmpty();
     }
+
+
+
+
+//    Stack<Integer> stack;
+//    Stack<Integer> help;
+//
+//    /** Initialize your data structure here. */
+//    public MyQueue() {
+//         stack= new Stack<>();
+//         help = new Stack<>();
+//    }
+//
+//    /** Push element x to the back of queue. */
+//    public void push(int x) {
+//        while (!stack.isEmpty()){
+//            help.push(stack.pop());
+//        }
+//        stack.push(x);
+//        while (!help.isEmpty()){
+//            stack.push(help.pop());
+//        }
+//    }
+//
+//    /** Removes the element from in front of queue and returns that element. */
+//    public int pop() {
+//        return stack.pop();
+//    }
+//
+//    /** Get the front element. */
+//    public int peek() {
+//        return stack.peek();
+//    }
+//
+//    /** Returns whether the queue is empty. */
+//    public boolean empty() {
+//        return stack.empty();
+//    }
 }
 
 
