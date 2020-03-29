@@ -7,4 +7,8 @@ package com.mutong.offer;
  * @time_complexity: O()
  */
 public class Power {
+    public double Power(double base, int exponent) {
+        return 1.1;
+    }
+
 }
