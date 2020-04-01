@@ -3,7 +3,7 @@ package com.mutong.algs.sort;
 import java.util.Arrays;
 
 /**
- * @description: 冒泡排序:首先比较0和1位置上的数,前面比后面大则交换,然后比较1和2位置上的数,依次类推
+ * @description: 冒泡排序:首先比较0和1位置上的数,前面比后面大则交换,然后比较1和2位置上的数,依次类推,比较完一遍之后,最后面这个数一定是最大的数字
  * @Author: Mutong
  * @Date: 2020/2/24 21:55
  * @time_complexity: O(n^2)

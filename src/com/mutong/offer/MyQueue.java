@@ -4,6 +4,9 @@ import java.util.Stack;
 
 /**
  * @description: 用栈实现队列
+ * 思路:
+ * 入队列直接入
+ * 出的时候把栈1的数全部放入2中,前提是栈2要为空
  * @Author: Mutong
  * @Date: 2020-03-01 21:11
  * @time_complexity: O()

@@ -2,19 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71eb11c6-a5d5-4935-8933-69d7939d9849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/ProxyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Rent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mutong/offer/DetectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mutong/offer/FirstNotRepeatingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mutong/offer/GetLeastNumbers_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mutong/offer/GetUglyNumber_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mutong/offer/InversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mutong/offer/MoreThanHalfNum_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mutong/offer/PrintMinNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/bishi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/bishi/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/DetectCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/DetectCycle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/HasCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/HasCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mutong/JUC/readwrite/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/JUC/readwrite/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/HasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/HasCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/KthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/KthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/SwapPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/mutong/offer/SwapPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/algs/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/algs/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/bishi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/bishi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/huanyuanshulie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/huanyuanshulie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/zuidagongyueshu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/zuidagongyueshu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/Find.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/Find.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/FindPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/IsAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/IsAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/IsValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/IsValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/MaxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/MinNumberInRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/MinNumberInRotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/NumberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/NumberOf1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/PrintListFromTailToHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/PrintListFromTailToHead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/PrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/PrintMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/ReConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/ReConstructBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/ReplaceSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mutong/offer/VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mutong/offer/VerifySquenceOfBST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,49 +53,56 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LeetCode$BubbleSort.ic" NAME="BubbleSort Coverage Results" MODIFIED="1585203011706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mutong.algs.sort.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1736605847">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.closed" value="35" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="4" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Deque" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="201" />
+          <entry key="java" value="267" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="201" />
+          <entry key="JAVA" value="267" />
           <entry key="Markdown" value="2" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
           <entry key="ft" value="27" />
-          <entry key="java" value="21244" />
+          <entry key="java" value="26287" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21244" />
+          <entry key="JAVA" value="26287" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="VTL" value="27" />
         </counts>
@@ -81,42 +112,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/GetLeastNumbers_Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Host.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/ProxyInvocationHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="308">
+              <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Rent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -124,8 +126,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/HasCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="399">
+              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/IsAnagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/PrintMinNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-336">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,32 +154,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/DetectCycle.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/GetUglyNumber_Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#detectCycle3#0;class#DetectCycle#0" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="4" column="94" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/ReverseLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/FirstNotRepeatingChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-148">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-84">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/SwapPairs.java">
+        <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/InversePairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="44" column="24" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="44" selection-end-column="24" />
+            <state relative-caret-position="224">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -188,6 +204,9 @@
       <find>corepoolsize</find>
       <find>ThreadPoolExecutor</find>
       <find>ThreadPoolExecutor(</find>
+      <find>set</find>
+      <find>confi</find>
+      <find>blocking</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,40 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/mutong/hot_interview/TwoQueueStack.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/MyQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/MyStack.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/hot_interview/Isbalancedbinarytree.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/hot_interview/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/Merge.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/EvalRPN.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/MidNode.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/OrangesRotting.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/ReverseLeftWords.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/PrintNumbers.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/LevelOrder.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/FindContinuousSequence.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/Twosum.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/MajorityElement.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/MinStack.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/FirstUniqChar.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/offer/CountDigitOne.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/algs/map/RandomPool.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/Bing_Du_Jian_Ce.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/NewPC.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/PC.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/ProducerAndConsumer.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/eightlock/Demo01.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/eightlock/Demo02.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/eightlock/test2/Demo02.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/eightlock/test3/Demo03.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/eightlock/test4/Demo04.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/unsafecollection/UnSafeList.java" />
-        <option value="$PROJECT_DIR$/src/com/mutong/JUC/callable/CallableTest.java" />
         <option value="$PROJECT_DIR$/src/com/mutong/JUC/utilclass/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/com/mutong/JUC/utilclass/CyclicBarrirDemo.java" />
         <option value="$PROJECT_DIR$/src/com/mutong/JUC/utilclass/SemaphoreDemo.java" />
@@ -247,6 +232,40 @@
         <option value="$PROJECT_DIR$/src/com/mutong/offer/HasCycle.java" />
         <option value="$PROJECT_DIR$/src/com/mutong/offer/DetectCycle.java" />
         <option value="$PROJECT_DIR$/src/com/mutong/offer/SwapPairs.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/IsValid.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/KthLargest.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/Point.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/MaxSlidingWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/algs/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/IsAnagram.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient2.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQServer.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/bishi/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/Find.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/ReplaceSpace.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/PrintListFromTailToHead.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/ReConstructBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/MinNumberInRotateArray.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/NumberOf1.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/Power.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/PrintMatrix.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/PrintFromTopToBottom.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/VerifySquenceOfBST.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/FindPath.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/Convert.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/huanyuanshulie.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/zuidagongyueshu.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/MoreThanHalfNum_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/GetLeastNumbers_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/PrintMinNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/GetUglyNumber_Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/mutong/offer/FirstNotRepeatingChar.java" />
       </list>
     </option>
   </component>
@@ -280,11 +299,11 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="548" />
-    <option name="y" value="650" />
-    <option name="width" value="1356" />
-    <option name="height" value="960" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -380,43 +399,6 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="mutong" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DesignPatterns" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LeetCode" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mutong" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DesignPatterns" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="proxy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LeetCode" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mutong" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DesignPatterns" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="proxy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="demo01" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LeetCode" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mutong" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="DesignPatterns" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="proxy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="demo02" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="LeetCode" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mutong" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="offer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -429,7 +411,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584972920109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585730529488" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jcommunity" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -459,13 +441,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mutong.DesignPatterns.proxy.demo02.Client" />
+  <component name="RunManager" selected="Application.FirstNotRepeatingChar">
+    <configuration name="FirstNotRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mutong.offer.FirstNotRepeatingChar" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mutong.DesignPatterns.proxy.demo02.*" />
+          <option name="PATTERN" value="com.mutong.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -473,12 +455,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mutong.DesignPatterns.proxy.demo01.Client" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mutong.offer.Permutation" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mutong.DesignPatterns.proxy.demo01.*" />
+          <option name="PATTERN" value="com.mutong.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,12 +468,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrirDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mutong.JUC.utilclass.CyclicBarrirDemo" />
+    <configuration name="PrintMinNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mutong.offer.PrintMinNumber" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mutong.JUC.utilclass.*" />
+          <option name="PATTERN" value="com.mutong.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,12 +481,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mutong.JUC.readwrite.ReadWriteLockDemo" />
+    <configuration name="huanyuanshulie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mutong.bishi.kuaishou.huanyuanshulie" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mutong.JUC.readwrite.*" />
+          <option name="PATTERN" value="com.mutong.bishi.kuaishou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -512,12 +494,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mutong.JUC.utilclass.SemaphoreDemo" />
+    <configuration name="zuidagongyueshu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mutong.bishi.kuaishou.zuidagongyueshu" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mutong.JUC.utilclass.*" />
+          <option name="PATTERN" value="com.mutong.bishi.kuaishou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -526,19 +508,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CyclicBarrirDemo" />
-      <item itemvalue="Application.SemaphoreDemo" />
-      <item itemvalue="Application.ReadWriteLockDemo" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.zuidagongyueshu" />
+      <item itemvalue="Application.huanyuanshulie" />
+      <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.PrintMinNumber" />
+      <item itemvalue="Application.FirstNotRepeatingChar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ReadWriteLockDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.CyclicBarrirDemo" />
+        <item itemvalue="Application.FirstNotRepeatingChar" />
+        <item itemvalue="Application.PrintMinNumber" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.zuidagongyueshu" />
+        <item itemvalue="Application.huanyuanshulie" />
       </list>
     </recent_temporary>
   </component>
@@ -579,19 +561,27 @@
       <workItem from="1584790395823" duration="13608000" />
       <workItem from="1584841305195" duration="11081000" />
       <workItem from="1584883138714" duration="4928000" />
-      <workItem from="1584930909297" duration="14375000" />
+      <workItem from="1584930909297" duration="15730000" />
+      <workItem from="1585036488873" duration="6944000" />
+      <workItem from="1585193609002" duration="670000" />
+      <workItem from="1585200547933" duration="2742000" />
+      <workItem from="1585305935910" duration="15204000" />
+      <workItem from="1585408684222" duration="760000" />
+      <workItem from="1585445592865" duration="4816000" />
+      <workItem from="1585482730777" duration="6380000" />
+      <workItem from="1585720707324" duration="7235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138888000" />
+    <option name="totallyTimeSpent" value="184994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.87731093" visible="true" weight="0.18976545" />
-      <window_info id="Structure" order="1" sideWeight="0.122689076" side_tool="true" visible="true" weight="0.18976545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77006507" visible="true" weight="0.21481876" />
+      <window_info id="Structure" order="1" sideWeight="0.22993493" side_tool="true" weight="0.21002132" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -599,17 +589,17 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3546638" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4186551" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49738675" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49738675" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.3362256" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3275488" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -662,371 +652,387 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mutong/offer/PrintMinNumber.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15652">
-          <caret line="585" column="14" selection-start-line="585" selection-start-column="14" selection-end-line="585" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/InsertSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="476">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4452">
+          <caret line="192" column="20" selection-start-line="192" selection-start-column="20" selection-end-line="192" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="23" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="133" column="11" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/nio/channels/ServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2661">
+          <caret line="304" column="23" lean-forward="true" selection-start-line="304" selection-start-column="23" selection-end-line="304" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/FindContinuousSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/FindMedianSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/FirstUniqChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/NetherlandsFlag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/algs/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/EvalRPN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/NewPC.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/PC.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/Main.java" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/eightlock/test2/Demo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/eightlock/test3/Demo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/eightlock/test4/Demo04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/unsafecollection/UnSafeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61012">
-          <caret line="2380" selection-start-line="2380" selection-end-line="2380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20496">
-          <caret line="781" column="29" selection-start-line="781" selection-start-column="29" selection-end-line="781" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/eightlock/test1/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="98" column="46" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/callable/CallableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/utilclass/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/utilclass/CyclicBarrirDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/utilclass/SemaphoreDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/producerandconsumer/ProducerAndConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5516">
-          <caret line="216" column="26" selection-start-line="216" selection-start-column="26" selection-end-line="216" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/readwrite/ReadWriteLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2156">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4060">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/SynchronousQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24276">
-          <caret line="921" column="7" selection-start-line="921" selection-start-column="7" selection-end-line="921" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="70" column="22" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34776">
-          <caret line="1302" column="30" selection-start-line="1302" selection-start-column="11" selection-end-line="1302" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/IsBalanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9352">
-          <caret line="383" column="22" selection-start-line="383" selection-start-column="22" selection-end-line="383" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="181" column="31" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ref/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="252" column="13" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
-          <folding>
-            <element signature="e#9332#9333#0" expanded="true" />
-            <element signature="e#9368#9369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3967">
-          <caret line="466" column="50" selection-start-line="466" selection-start-column="50" selection-end-line="466" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#25460#0" expanded="true" />
-            <element signature="e#7765#7766#0" expanded="true" />
-            <element signature="e#7802#7803#0" expanded="true" />
-            <element signature="e#11620#11621#0" expanded="true" />
-            <element signature="e#11678#11679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Rent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Host.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="9" selection-start-line="9" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="5" selection-start-line="9" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo01/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Host.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/ProxyInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/DesignPatterns/proxy/demo02/Rent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/HasCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="549">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/DetectCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        <state relative-caret-position="837">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/Find.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/ReplaceSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/PrintListFromTailToHead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/ReConstructBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/EvalRPN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/MinNumberInRotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="21" selection-start-line="10" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/PrintMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/callable/CallableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/PrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/VerifySquenceOfBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/FindPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQClient2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/还原数列.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/bishi/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/huanyuanshulie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#detectCycle3#0;class#DetectCycle#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/ReverseLinkedList.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-148">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="38640">
+          <caret line="1451" column="16" selection-start-line="1451" selection-start-column="16" selection-end-line="1451" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/SwapPairs.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="44" column="24" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="44" selection-end-column="24" />
+        <state relative-caret-position="1932">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/io/bio/QQServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/producerandconsumer/ProducerAndConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2632">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/JUC/readwrite/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/bishi/kuaishou/zuidagongyueshu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/MoreThanHalfNum_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/GetLeastNumbers_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/HasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/IsAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/PrintMinNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/GetUglyNumber_Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="94" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/FirstNotRepeatingChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mutong/offer/InversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>

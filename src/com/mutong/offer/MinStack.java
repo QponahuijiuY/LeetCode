@@ -8,7 +8,7 @@ import java.util.Stack;
  * @Date: 2020-03-15 0:29
  * @time_complexity: O()
  */
-public class MinStack {
+public class MinStack  {
     Stack<Integer> stackA;
     Stack<Integer> stackB;
     public MinStack() {

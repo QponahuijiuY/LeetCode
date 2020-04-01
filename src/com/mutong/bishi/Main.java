@@ -10,11 +10,44 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int i = sc.nextInt();
-        if (i < n){
 
+        //预先不知道输入数据的组数-读到文件末尾-一直处理循环
+//        Scanner scanner = new Scanner(System.in);
+//        while (scanner.hasNextInt()){
+//            int a = scanner.nextInt();
+//            int b = scanner.nextInt();
+//            System.out.println(a + b);
+//        }
+
+        //预先知道数据的组数 - 读数据组数然后循环
+//        Scanner scanner = new Scanner(System.in);
+//        int n = scanner.nextInt();//输入一个n表示后面有n组数据
+//        for (int i = 0; i < n; i++) {
+//            int a = scanner.nextInt();
+//            int b = scanner.nextInt();
+//            System.out.println("Case" + (i + 1) + " " + (a + b) + "\n");
+//        }
+
+
+
+
+//        Scanner scanner = new Scanner(System.in);
+//        int n = scanner.nextInt();//输入一个n表示后面有n组数据
+//        for (int i = 0; i < n; i++) {
+//            int a = scanner.nextInt();
+//            int b = scanner.nextInt();
+//            if (i > 0){
+//                System.out.println();
+//            }
+//            System.out.println("Case" + (i + 1) + " " + (a + b) + "\n");
+//        }
+
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();//输入一个n表示后面有n组数据
+        for (int i = 0; i < n; i++) {
+            String s = scanner.nextLine();
+            String s1 = scanner.nextLine();
+            System.out.println("Case" + (i + 1) + " " + (s + s1) + "\n");
         }
     }
 }
