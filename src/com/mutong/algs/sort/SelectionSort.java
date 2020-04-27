@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @Date: 2020/2/24 22:20
  * @time_complexity: O(n^2)
  */
-public class SelectionSort {
+public class  SelectionSort {
     public static void sort(int[] nums) {
         int n = nums.length;
         if (nums == null || n < 2) return;

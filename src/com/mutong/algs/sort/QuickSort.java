@@ -7,28 +7,47 @@ package com.mutong.algs.sort;
  * @time_complexity: O(nlgn)
  */
 public class QuickSort {
-    public static void sort(int[] arr , int L , int R){
-        int[] p = partition(arr, L ,R);//返回的是中间相等的X
-        //继续把L到p[0]-1继续排序
-        sort(arr, L , p[0] - 1);
-        //继续把p[1]+1 到R排序,中间的p[0]-p[1]是已经排好序而且相等的元素
-        sort(arr, p[1] + 1, R);
+    public static void main(String[] args) {
+        int[] nums = {7,3,6,4,1,5,1,4,6};
+        sort(nums);
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        }
+
+    }
+    public static void sort(int[] nums){
+        if (nums == null || nums.length < 2){
+            return;
+        }
+        quicksort(nums, 0 , nums.length - 1);
     }
 
-    private static int[] partition(int[] arr, int L, int R) {
-        int less = L - 1;
-        int more = R;
-        while (L < more ){
-            if (arr[L] < arr[more]){
-                swap(arr , ++less , L++);
-            }else if (arr[L] > arr[R]){
-                swap(arr, --more,L);
-            }else{
-                L++;
-            }
+    //分成两个部分,递归的进行快排, 以最后一个元素为参照点, 小于它的放在左边,大于它的放在右边, 中间是所有相等的元素
+    private static void quicksort(int[] nums, int L, int R) {
+        if (L >= R){
+            return;
         }
-        swap(arr,more,R);
-        return new int[]{less + 1, more };
+        int more = partition(nums,L,R);
+        quicksort(nums, L, more-1);
+        quicksort(nums, more+1 ,R);
+
+
+    }
+
+    private static int partition(int[] nums, int L, int R) {
+        int less = L;
+        int more = R + 1;
+        int value = nums[L];//以第一个元素作为划分
+        while (true){
+            while (nums[++less] < value) if (less == R) break;
+            while (nums[--more] > value) if (more == L) break;
+            if (more <= less) break;
+            swap(nums,less,more);
+        }
+        swap(nums,L,more);
+
+
+        return more;
     }
 
     private static void swap(int[] arr, int i, int j) {

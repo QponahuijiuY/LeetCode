@@ -7,7 +7,7 @@ package com.mutong.offer;
  * @time_complexity: O()
  */
 public class InversePairs {
-    public int InversePairs(int [] array) {
-
-    }
+//    public int InversePairs(int [] array) {
+//
+//    }
 }

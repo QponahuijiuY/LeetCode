@@ -16,7 +16,7 @@ public class InsertSort {
         //先从1开始,去和0比较
         for (int i = 1 ; i < n ; i ++){
             //每一个数字都要和前面的所有数字进行比较.j>=0是防止越界,nums[j]>nums[j+1]是判断左边比右边大,则交换
-            for (int j = i - 1 ; j >= 0 && nums[j] > nums[j + 1] ; j ++){
+            for (int j = i - 1 ; j >= 0 && nums[j] > nums[j + 1] ; j --){
                 swap(nums, j , j + 1);
             }
         }
