@@ -11,7 +11,7 @@ import java.util.Map;
 public class Solution3 {
     public static void main(String[] args) {
         Solution3 solution = new Solution3();
-        System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(solution.lengthOfLongestSubstring("qwerasdzxcc"));
     }
     public int lengthOfLongestSubstring(String s) {
         int ans = 0;
