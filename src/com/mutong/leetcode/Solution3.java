@@ -14,6 +14,7 @@ public class Solution3 {
         System.out.println(solution.lengthOfLongestSubstring("qwerasdzxcc"));
     }
     public int lengthOfLongestSubstring(String s) {
+
         int ans = 0;
         Map<Character,Integer> map = new HashMap<>();
         int n = s.length();

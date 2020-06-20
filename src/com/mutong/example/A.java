@@ -7,4 +7,10 @@ package com.mutong.example;
  * @time_complexity: O()
  */
 public class A {
+    public void test(){
+
+    }
+
+
+
 }

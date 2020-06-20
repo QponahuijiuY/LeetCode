@@ -9,7 +9,20 @@ import java.util.Arrays;
  * @time_complexity: O(n^2)
  */
 public class BubbleSort {
-
+    public static int[] arraySort(int[] arr) {
+        int n = arr.length;
+        if (arr == null || n < 2) {
+            return new int[]{};
+        }
+        for (int end = n - 1 ; end > 0 ; end --){
+            for (int i = 0 ; i < end ; i ++){
+                if (arr[i + 1] < arr[i]){
+                    swap(arr, i, i + 1);
+                }
+            }
+        }
+        return arr;
+    }
     public static void sort(int[] nums){
         int n = nums.length;
         if (nums == null || n < 2) return;

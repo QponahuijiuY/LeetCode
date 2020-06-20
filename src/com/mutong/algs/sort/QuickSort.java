@@ -8,7 +8,7 @@ package com.mutong.algs.sort;
  */
 public class QuickSort {
     public static void main(String[] args) {
-        int[] nums = {7,3,6,4,1,5,1,4,6};
+        int[] nums = {2,13,1,5,99,234,23};
         sort(nums);
         for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);

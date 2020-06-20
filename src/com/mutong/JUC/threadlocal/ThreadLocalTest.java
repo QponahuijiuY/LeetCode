@@ -7,4 +7,13 @@ package com.mutong.JUC.threadlocal;
  * @time_complexity: O()
  */
 public class ThreadLocalTest {
+    public static void main(String[] args) {
+
+        ThreadLocal tl = new ThreadLocal();
+        tl.set(1);
+        System.out.println(tl.get());
+        tl.remove();
+
+
+    }
 }
