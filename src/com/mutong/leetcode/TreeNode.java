@@ -6,8 +6,8 @@ package com.mutong.leetcode;
  * @Date: 2020-06-18 11:09
  */
 public class TreeNode {
-    int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
+    public Integer val;
+      public TreeNode left;
+      public TreeNode right;
+      public TreeNode(int x) { val = x; }
 }

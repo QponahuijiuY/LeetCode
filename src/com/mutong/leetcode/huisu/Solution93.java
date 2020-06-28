@@ -1,10 +1,10 @@
-package com.mutong.leetcode;
+package com.mutong.leetcode.huisu;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description: 复原ip地址
+ * @description: 复原ip地址 回溯
  * @Author: gengchen.jing@yoyi.com.cn
  * @Date: 2020-05-21 7:53
  */
